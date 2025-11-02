@@ -1,13 +1,9 @@
 import time
-
-from daytona import (
-    CreateSandboxFromImageParams,
+from daytona_sdk import (
     Daytona,
     DaytonaConfig,
-    Resources,
     Sandbox,
     SandboxState,
-    SessionExecuteRequest,
 )
 
 from app.config import config
